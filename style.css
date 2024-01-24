@@ -195,7 +195,51 @@ a {
 
 .list-unstyle li i{
   color: var(--main-color);
+
+	
 }
 .wrapper {
   display: flex;
+}
+
+/* SHOP PAGE */
+
+.shop-block {
+  box-shadow: 0 0 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.shop_btn {
+  padding: 8px 15px;
+  background-color: #8c92a07a;
+  border: none;
+  margin-left: 20px;
+  color: var(--secondary-color);
+
+}
+
+#slider-range {
+  height: 8px;
+
+}
+
+#slider-range .ui-slider-range {
+  background-color: var(--main-color);
+}
+
+.ui-slider .ui-slider-handle {
+  border-radius: 50%;
+  background-color: var(--main-color)!important;
+}
+
+.form-control:focus {
+  box-shadow: none!important;
+}
+
+.form-control:disabled {
+  background-color: #fff !important;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
 }
